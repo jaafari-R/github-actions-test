@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run your build commands
+        name: Run your build commands
         run: |
           echo "Hello World"
